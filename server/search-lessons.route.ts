@@ -11,6 +11,9 @@ export function searchLessons(req: Request, res: Response) {
 
     const queryParams = req.query as any;
 
+    console.log("querypamars", queryParams);
+
+
     const courseId = queryParams.courseId,
           filter = queryParams.filter || '',
           sortOrder = queryParams.sortOrder || 'asc',

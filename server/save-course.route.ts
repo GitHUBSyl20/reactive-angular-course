@@ -15,7 +15,7 @@ export function saveCourse(req: Request, res: Response) {
     const id = req.params["id"],
         changes = req.body;
 
-    console.log("Saving course changes", id, JSON.stringify(changes));
+    //console.log("Saving course changes", id, JSON.stringify(changes));
 
     const newCourse = {
       ...COURSES[id],
@@ -24,7 +24,7 @@ export function saveCourse(req: Request, res: Response) {
 
     COURSES[id] = newCourse;
 
-    console.log("new course version", newCourse);
+   // console.log("new course version", newCourse);
 
     setTimeout(() => {
 

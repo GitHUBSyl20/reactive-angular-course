@@ -1,6 +1,5 @@
 export const COURSES: any = {
 
-
   17: {
     id: 17,
     description: 'Reactive Angular Course',
@@ -14,6 +13,7 @@ export const COURSES: any = {
     price: 50
 
   },
+  
   3: {
     id: 3,
     description: 'RxJs In Practice Course',
@@ -874,6 +874,7 @@ export const LESSONS = {
 
 };
 
+// Users
 
 export const USERS = {
   1: {
